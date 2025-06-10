@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #e0e0e0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.nav-wrapper {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    box-shadow: 7px 7px 15px #bebebe,
+                -7px -7px 15px #ffffff;
+    transition: background 0.2s;
+}
+
+nav a:hover {
+    background: #f0f0f0;
+}
+
+.hero,
+.contact-card,
+footer {
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 7px 7px 15px #bebebe,
+                -7px -7px 15px #ffffff;
+}
+
+.features {
+    padding: 2rem;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 7px 7px 15px #bebebe,
+                -7px -7px 15px #ffffff;
+    background: #e0e0e0;
+    width: 180px;
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 2rem;
+}
